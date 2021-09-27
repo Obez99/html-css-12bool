@@ -9,12 +9,24 @@
   flex-wrap: wrap;
 }
 
+.align-left{
+  justify-content: flex-start;
+}
+.align-center{
+  justify-content: center;
+}
+.align-right{
+  justify-content: flex-end;
+}
+
 .box{
   display:flex;
   flex-direction: row;
   flex-wrap: wrap;
 }
 
+/*Columns' width*/
+/*********************/
 .col1-12{flex-basis: calc(100% / 12); max-width:calc(100% / 12);}
 .col2-12{flex-basis: calc(100% / 12 * 2); max-width:calc(100% / 12 * 2);}
 .col3-12{flex-basis: calc(100% / 12 * 3); max-width:calc(100% / 12 * 3);}
@@ -27,3 +39,19 @@
 .col10-12{flex-basis: calc(100% / 12 * 10); max-width:calc(100% / 12 * 10);}
 .col11-12{flex-basis: calc(100% / 12 * 11); max-width:calc(100% / 12 * 11);}
 .col12-12{flex-basis: 100%; max-width: 100%;}
+/*********************/
+
+/*Columns' offset*/
+/*********************/
+.col-offset1-12{margin-left:calc(100% / 12);}
+.col-offset2-12{margin-left:calc(100% / 12 * 2);}
+.col-offset3-12{margin-left:calc(100% / 12 * 3);}
+.col-offset4-12{margin-left:calc(100% / 12 * 4);}
+.col-offset5-12{margin-left:calc(100% / 12 * 5);}
+.col-offset6-12{margin-left:calc(100% / 12 * 6);}
+.col-offset7-12{margin-left:calc(100% / 12 * 7);}
+.col-offset8-12{margin-left:calc(100% / 12 * 8);}
+.col-offset9-12{margin-left:calc(100% / 12 * 9);}
+.col-offset10-12{margin-left:calc(100% / 12 * 10);}
+.col-offset11-12{margin-left:calc(100% / 12 * 11);}
+/*********************/
