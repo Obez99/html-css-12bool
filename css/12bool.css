@@ -29,3 +29,35 @@
 .col-offset10-12{margin-left:calc(100% / 12 * 10);}
 .col-offset11-12{margin-left:calc(100% / 12 * 11);}
 /*********************/
+
+.align-h-left{
+  justify-content: flex-start;
+}
+
+.align-h-center{
+  justify-content: center;
+}
+
+.align-h-right{
+  justify-content:right;
+}
+
+.align-h-spacearound{
+  justify-content: space-around;
+}
+
+.align-h-spacebetween{
+  justify-content: space-between;
+}
+
+.align-v-top{
+  align-self: flex-start;
+}
+
+.align-v-middle{
+  align-self: center;
+}
+
+.align-v-bottom{
+  align-self: flex-end;
+}
